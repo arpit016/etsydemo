@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-default .navbar-brand {
-  font-family: guardian-egypt, georgia, serif;
+  font-family: guardian-egyptt, georgia, serif;
   font-weight: 400;
   color: #d5641c;
   font-size: 30px;
@@ -48,4 +48,40 @@ body {
     font-size: 15px;
     margin: 0px;
   }
+}
+
+.jumbotron{
+  position: relative;
+  overflow: hidden;
+  height:200px;
+}
+.text {
+  position: relative;
+  color: #ffffff;
+  z-index: 2;
+  h2 {
+    font-family: guardian-egyptt, serif;
+    font-size: 42px;
+    font-weight:300;
+    line-height:50.4px;
+  }
+  h4 {
+    font-family: graphik webb, Arial, Helvetica;
+    font-size: 20px;
+    font-weight:600;
+    line-height:32px;
+  }
+}
+
+#video-background{ 
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+  z-index: 1;
 }
