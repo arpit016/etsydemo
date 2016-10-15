@@ -25,7 +25,6 @@ gem "paperclip", "~> 5.0.0"
 gem 'figaro'
 gem 'aws-sdk', '~> 2.3'
 gem 'devise'
-
 gem 'stripe'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
